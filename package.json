@@ -1,0 +1,20 @@
+{
+  "name": "easy-opgp",
+  "version": "1.0.2",
+  "description": "Wrapper for OpenPGP",
+  "author": "",
+  "main": "./distribution/index.js",
+  "scripts": {
+    "build": "babel source --presets babel-preset-es2017 --out-dir distribution",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "openpgp": "^3.0.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1"
+  }
+}
