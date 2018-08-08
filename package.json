@@ -1,9 +1,13 @@
 {
   "name": "easy-opgp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Wrapper for OpenPGP",
   "author": "",
   "main": "./distribution/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kryha/easy-opgp"
+  },
   "scripts": {
     "build": "babel source --presets babel-preset-es2017 --out-dir distribution",
     "test": "echo \"Error: no test specified\" && exit 1"

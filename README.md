@@ -2,6 +2,8 @@
 
 Wrapper for OpenPGP package. Allows for easier use of OpenPGP encryption for basic use cases.
 
+For implementation examples please refer to the testfile
+
 
 
 
